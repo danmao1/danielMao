@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar{
+  opacity: 0.8;
+  
+}
+.navbar-nav{
+  margin-left: 44%;
+  font-weight: bold;
+}
+.title {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  font-size: 4.5em;
+
+}
+
+.back {
+  background-size: cover;
+
+}
+
+.resume-button {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Whitney', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  opacity: 0.8;
+  background-color: transparent;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 100px;
+  padding: 1em;
+  margin: 1em;
+}
+
+
+.resume-button:hover {
+  opacity: 1;
+}
+
+
+.box{
+  backdrop-filter: blur(4px);
+  text-align: center;
+  border-radius: 45px;
+}
+p{
+  color: black;
+}
+
+.footer{
+  height: 50px;
+  opacity: 0.8;
+  background-color:black;
+  display: flex;
+}
+.footerIcons{
+  margin-top: 0.3em;
+  text-align: right;
+  width: 20%;
+ 
+}
+.github{
+  margin-left: 1em;
+  margin-right: 0.5em;
+  right:0;
+}
+.MuiInputBase-root{
+  background-color: white;
+  align-items: center;  
+}
+.inputText{
+  text-align: center;
+}
+.inputText {
+  width: 100%;
+  padding: 1%;
+
+ }
+
+.send{
+  height: 1.5em;
+  width: 1.5em;
+  position: relative;
+  left: 37%;
+  bottom: 45px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  z-index: 1000;
+}
+  
+.send:hover {
+  background-color: rgb(207, 207, 207);
+ 
+}
+p{
+  color:white;
+  display: inline-block;
+  margin-right: 10%;
+  font-size: small;
+}
+
+.contact{
+  width: 80%;
+}
+.me{
+  color:white;
+  font-size: 120%;
+  margin: auto;
+  margin-bottom:1em;
+}
+.txt{
+  margin-bottom: 2em;
+  text-align: center;
+
+}
+
+.resume{
+  margin: 1em;
+  
+} 
+textarea{
+  position: relative;
+  z-index: 900;
+  left:-2.5%;
+}
+
+#tog {
+  display: inline-block;
+  vertical-align: middle;
+}
+.foot{
+  text-align: center;
+}
