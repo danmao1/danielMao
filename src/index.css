@@ -148,6 +148,7 @@ textarea{
 #tog {
   display: inline-block;
   vertical-align: middle;
+  margin: 1% 0px;
 }
 .foot{
   text-align: center;

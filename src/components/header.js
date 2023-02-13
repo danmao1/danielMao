@@ -44,7 +44,7 @@ export default class Navbar extends Component {
               </Link>
             </li>
             
-        
+            
             <li className="nav-item">
               <Link
                 activeClass="active"
