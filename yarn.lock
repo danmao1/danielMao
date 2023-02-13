@@ -1356,6 +1356,13 @@
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.15.4.tgz#ecda5712b61ac852c760d8b3c79c96adca5554e5"
   integrity sha512-eYm8vijH/hpzr/6/1CJ/V/Eb1xQFW2nnUKArb3z+yUWv7HTwj6M7SP957oMjfZjAHU6qpoNc2wQvIxBLWYa/Jg==
 
+"@fortawesome/fontawesome-svg-core@^6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-6.3.0.tgz#b6a17d48d231ac1fad93e43fca7271676bf316cf"
+  integrity sha512-uz9YifyKlixV6AcKlOX8WNdtF7l6nakGyLYxYaCa823bEBqyj/U2ssqtctO38itNEwXb8/lMzjdoJ+aaJuOdrw==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "6.3.0"
+
 "@fortawesome/free-brands-svg-icons@^6.3.0":
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-6.3.0.tgz#436e5fcba4f4f0902edcceaec5c4ff887ba7328f"
