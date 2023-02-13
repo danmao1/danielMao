@@ -49,9 +49,8 @@
     ]
   },
   "engines": {
-    
-    "node": "^v18.14.0"
-},
+    "node": "v18.12.0"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
