@@ -8,11 +8,7 @@ import {
 import {
   MDBFooter,
   MDBContainer,
-  MDBCol,
   MDBRow,
-  MDBIcon,
-  MDBBtn,
-  MDBInput
 } from 'mdb-react-ui-kit';
 
 export default function Footer() {
