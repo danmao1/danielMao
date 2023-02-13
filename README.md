@@ -23,7 +23,8 @@ Integrating with external APIs to fetch data and create dynamic pages
 
 ## Conclusion
 
-The Website is live [here](https://thankful-ocean-09a945d10.2.azurestaticapps.net/)
+The Website is live [here](https://thankful-ocean-09a945d10.2.azurestaticapps.net)
+
 I hope you enjoy browsing my website and learning more about me. If you have any feedback or suggestions, please don't hesitate to reach out via the contact form. Thank you for visiting!
 
 # Getting Started with Create React App

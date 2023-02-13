@@ -166,6 +166,7 @@ textarea{
 .repo > div {
   margin-right: 20px;
   margin-bottom: 20px;
+  word-break: break-all;
 }
 #projects{
   background-color: rgb(53, 53, 53);
@@ -380,6 +381,7 @@ textarea{
   .repo > div {
     margin-right: 20px;
     margin-bottom: 20px;
+    word-break: break-all;
   }
   #projects{
     background-color: rgb(53, 53, 53);
