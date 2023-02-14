@@ -314,6 +314,7 @@ textarea{
   .navigation-menu.expanded .nav-items {
     display: flex;
     height: auto;
+    z-index: 2000;
   }
 
 
