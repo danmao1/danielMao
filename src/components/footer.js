@@ -22,7 +22,7 @@ export default function Footer() {
        <div class='contact' id='tog'>
        <p class='p1'><b>Personal email:</b> daniel7-d@hotmail.com</p>          
        <p class='p2'><b>School email:</b> daniel.mao@slu.edu </p>                
-       <p class='p3'><b>Phone Number:</b> +1 314-898-(8195)</p>
+       <p class='p3'><b>Phone Number:</b> +1 (314)-898-8195</p>
        </div>
 
        <div class='footerIcons' id='tog'>

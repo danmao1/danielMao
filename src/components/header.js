@@ -1,28 +1,54 @@
-import React, { Component } from "react";
+import React, {useState } from "react";
 
 import { Link, animateScroll as scroll } from "react-scroll";
 import dm from '../img/logo.png';
-export default class Navbar extends Component {
-  scrollToTop = () => {
+
+export default function Navbar() {
+  
+  
+  const scrollToTop = () => {
     scroll.scrollToTop();
   };
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
+  const burgerExpand = () =>{
+    if (isNavExpanded){
+      setIsNavExpanded(!isNavExpanded);
+    }
+  }
 
-  render() {
-    return (
-      <nav className="nav" id="navbar">
+
+  
+  return (
+      <nav className="navigation" id="navbar">
         <img
             src={dm}
             className="nav-logo"
             alt="Logo"
-            onClick={this.scrollToTop}
+            onClick={scrollToTop}
           />
-        <div className="nav-content">
         
+        <button
+        className="hamburger"
+        onClick={() => {
+          setIsNavExpanded(!isNavExpanded);
+        }}
+      >
+        <i class="fa-solid fa-bars"></i>
+      </button>
+        
+      <div
+        className={
+          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
+        }
+      >
           <ul className="nav-items">
             <li className="nav-item">
               <Link
                 activeClass="active"
-                onClick={this.scrollToTop}
+                onClick={() => {
+                  burgerExpand();
+                  scrollToTop();
+                }}
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -34,6 +60,9 @@ export default class Navbar extends Component {
             <li className="nav-item">
               <Link
                 activeClass="active"
+                onClick={() => {
+                  burgerExpand();
+                }}
                 to="projects"
                 spy={true}
                 smooth={true}
@@ -53,6 +82,9 @@ export default class Navbar extends Component {
                 smooth={true}
                 offset={-70}
                 duration={500}
+                onClick={() => {
+                  burgerExpand();
+                }}
               >
                 CONTACT
               </Link>
@@ -63,8 +95,8 @@ export default class Navbar extends Component {
         </div>
       </nav>
     );
-  }
 }
+
 
 
 
