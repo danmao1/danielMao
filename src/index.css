@@ -213,6 +213,9 @@ textarea{
 
 
 @media (max-width: 600px) {
+  #root{
+    overflow: hidden
+  }
  
   body {
     margin: 0;
@@ -221,7 +224,7 @@ textarea{
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    min-width: 600px;
+    min-width: 100%;
   }
   
   code {
@@ -233,7 +236,7 @@ textarea{
     
   }
   .navbar-nav{
-    margin-left: 44%;
+   
     font-weight: bold;
   }
   .title {
@@ -241,14 +244,15 @@ textarea{
     font-weight: bold;
     text-align: center;
     margin: auto;
-    font-size: 4.5em;
+    font-size: 3.5em;
   
   }
   
   .back {
-    width: 600px;
+    min-width: 100%;
   
   }
+ 
   
   .resume-button {
     text-decoration: none;
@@ -277,6 +281,10 @@ textarea{
     backdrop-filter: blur(4px);
     text-align: center;
     border-radius: 45px;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    margin: 10% !important;
   }
   p{
     color: black;
@@ -342,7 +350,7 @@ textarea{
   }
   .me{
     color:white;
-    font-size: 120%;
+    font-size: 80%;
     margin: auto;
     margin-bottom:1em;
   }
@@ -372,8 +380,8 @@ textarea{
   .repo {
     display: flex;
     width: 100%;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-content: center;
     justify-content: center;
   }
@@ -382,9 +390,11 @@ textarea{
     margin-right: 20px;
     margin-bottom: 20px;
     word-break: break-all;
+    width: 100% !important;
   }
   #projects{
     background-color: rgb(53, 53, 53);
+    min-width: 100%;
   }
   .subtitle{
     color: white;
