@@ -91,13 +91,12 @@ code {
   font-weight: bold;
   opacity: 0.8;
   background-color: transparent;
-  margin-right: auto;
-  margin-left: auto;
+
   padding: 10px 20px;
   border: 2px solid #fff;
   border-radius: 100px;
   padding: 1em;
-  margin: 1em;
+  margin-left: 1em;
 }
 
 
@@ -257,6 +256,8 @@ textarea{
 
 
 
+
+
 @media (max-width: 600px) {
   #root{
     overflow: hidden
@@ -336,6 +337,11 @@ textarea{
     min-width: 100%;
   
   }
+  .resume-buttons{
+    display: flex;
+    flex-direction: column;
+
+  }
  
   
   .resume-button {
@@ -354,6 +360,7 @@ textarea{
     padding: 1em;
     margin: 1em;
   }
+
   
   
   .resume-button:hover {
