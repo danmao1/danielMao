@@ -10,7 +10,7 @@ A contact form for visitors to get in touch with me
 
 ## Deployment
 
-The website is hosted on Azure and is constantly monitored to ensure maximum uptime and performance. You can access the website by visiting the URL provided by the developer.
+The website is hosted on Azure and is constantly monitored to ensure maximum uptime and performance.
 
 ## Future Plans
 
@@ -23,7 +23,7 @@ Integrating with external APIs to fetch data and create dynamic pages
 
 ## Conclusion
 
-The Website is live [here](https://thankful-ocean-09a945d10.2.azurestaticapps.net)
+The Website is live [here](www.maodaniel.com)
 
 I hope you enjoy browsing my website and learning more about me. If you have any feedback or suggestions, please don't hesitate to reach out via the contact form. Thank you for visiting!
 
