@@ -16,7 +16,7 @@ function App() {
   
   
   return (
-    <><div class='back' style={{ backgroundImage: `url(${background})` }}><Header />
+    <><div class='back' style={{ backgroundImage: `url(${background})` }}><Header/>
     <Container
     className="d-flex align-items-center justify-content-center"
     

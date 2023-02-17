@@ -9,12 +9,12 @@ export default function Navbar() {
   const scrollToTop = () => {
     scroll.scrollToTop();
   };
-  const [isNavExpanded, setIsNavExpanded] = useState(false);
-  const burgerExpand = () =>{
-    if (isNavExpanded){
-      setIsNavExpanded(!isNavExpanded);
-    }
-  }
+  // const [isNavExpanded, setIsNavExpanded] = useState(false);
+  // const burgerExpand = () =>{
+  //   if (isNavExpanded){
+  //     setIsNavExpanded(!isNavExpanded);
+  //   }
+  // }
 
 
   
@@ -27,7 +27,7 @@ export default function Navbar() {
             onClick={scrollToTop}
           />
         
-        <button
+        {/* <button
         className="hamburger"
         onClick={() => {
           setIsNavExpanded(!isNavExpanded);
@@ -92,7 +92,7 @@ export default function Navbar() {
 
            
           </ul>
-        </div>
+        </div> */}
       </nav>
     );
 }
