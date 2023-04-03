@@ -39,11 +39,11 @@ export default function BoxSx() {
           <p class='me' style={{fontWeight: 'bold'}}>Resume:</p>
           </div>
           <div class='resume-buttons'>
-            <a href='DanielMao_resume.pdf' target="_blank"  ><button class='resume-button' ><i class="fa-regular fa-file-pdf"></i> 
+            <a href='DanielMao_CV.pdf' target="_blank"  ><button class='resume-button' ><i class="fa-regular fa-file-pdf"></i> 
             &nbsp;Preview</button></a>
         
 
-            <a href='DanielMao_resume.pdf' download='DanielMao_resume.pdf'   ><button class='resume-button' ><i class="fa-solid fa-download"></i> 
+            <a href='DanielMao_CV.pdf' download='DanielMao_CV.pdf'   ><button class='resume-button' ><i class="fa-solid fa-download"></i> 
             &nbsp;Download</button></a>
             </div>
         </div>
