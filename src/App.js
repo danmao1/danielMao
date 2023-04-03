@@ -1,7 +1,7 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import background from './img/webBackground.jpg'
+import background from './img/bg.jpg'
 import Header from './components/header';
 import { Container } from "react-bootstrap"
 import Home from './pages/home'
