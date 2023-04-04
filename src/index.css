@@ -106,7 +106,7 @@ code {
 
 
 .box{
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(8px);
   text-align: center;
   border-radius: 45px;
 }
@@ -369,7 +369,7 @@ textarea{
   
   
   .box{
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(8px);
     text-align: center;
     border-radius: 45px;
     width: auto;
